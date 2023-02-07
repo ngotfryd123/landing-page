@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-between;
+}
+.header {
+    display: flex;
+    color: white;
+    background: #1F2937;
+}
+.quote-box{
+    background:#E5E7EB
+}
+.footer{
+    background: #1F2937;
+    display: flex;
+}
+.wrapper, button{
+    background: #3882F6;
+}
