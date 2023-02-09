@@ -7,7 +7,6 @@ body{
 }
 .header {
     display: flex;
-    color: white;
     background: #1F2937;
     flex-direction: column;
 }
@@ -44,8 +43,53 @@ ul{
     padding: 0;
     display: flex;
     gap: 15px;
+    margin-right: 220px;
 }
 .header-wrap {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.head-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    width: 400px;
+    margin-left: 220px;
+}
+.hero-main{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.second-txt, ul {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0px;
+}
+.column-wrap {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 220px;
+}
+button {
+    align-self: flex-start;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 30px;
+    border: 0;
+}
+.logo-container {
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 220px;
+    color: white;
+    width:600px;
 }
