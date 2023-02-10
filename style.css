@@ -22,6 +22,18 @@ body{
     background: #1F2937;
     display: flex;
 }
+.wrapper {
+    margin: 40px 200px;
+    display: flex;
+    padding: 50px 120px;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+.inner-wrap {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
 .wrapper, button{
     background: #3882F6;
 }
@@ -81,7 +93,7 @@ ul{
     gap: 10px;
     margin-left: 220px;
 }
-button {
+.column-wrap button {
     align-self: flex-start;
     border-radius: 5px;
     color: white;
@@ -131,4 +143,12 @@ button {
 .text {
     width: 200px;
     height: 100px;
+}
+button {
+    border-radius: 5px;
+    color: white;
+    padding: 5px 30px;
+    border: white;
+    border-width: 1px;
+    border-style: solid;
 }
