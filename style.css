@@ -18,9 +18,12 @@ body{
     padding: 100px;
     gap: 20px;
 }
-.footer{
+.footer {
     background: #1F2937;
     display: flex;
+    color: white;
+    justify-content: center;
+    padding: 20px;
 }
 .wrapper {
     margin: 40px 200px;
